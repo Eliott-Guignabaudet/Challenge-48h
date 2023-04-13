@@ -116,4 +116,9 @@ public class Player : MonoBehaviour
             GameManager.Instance.GameOver("Oh non!\nTu es devenu trop con");
         }
     }
+
+    public void Win()
+    {
+        GameManager.Instance.GameOver("Bravo!\nVous êtes embauchés");
+    }
 }
