@@ -62,8 +62,23 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void AddRemoveHunger(int value)
     {
-        
+        Hunger += value;
+    }    
+
+    public void AddRemoveSold(int value)
+    {
+        Sold += value;
+    }
+
+    public void AddRemoveSocial(int value)
+    {
+        Social += value;
+    }
+
+    public void AddRemoveKnowledge(int value)
+    {
+        Knowledge += value;
     }
 }
