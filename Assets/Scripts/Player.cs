@@ -64,26 +64,56 @@ public class Player : MonoBehaviour
         Sold = 50;
         Social = 50;
         Knowledge = 50;
+        
+    }
+
+    private void Update()
+    {
+
+        foreach (Touch touch in Input.touches)
+        {
+            if (touch.phase == TouchPhase.Began)
+            {
+                AddRemoveSocial(-10);
+
+            }
+        }
     }
 
     // Update is called once per frame
     public void AddRemoveHunger(int value)
     {
         Hunger += value;
+        if (Hunger <= 0)
+        {
+            GameManager.Instance.GameOver("Oh non!\nTui es mort de faim");
+        }
     }    
 
     public void AddRemoveSold(int value)
     {
         Sold += value;
+        if (Sold <= 0)
+        {
+            GameManager.Instance.GameOver("Oh non!\nTu n'as plus d'argent");
+        }
     }
 
     public void AddRemoveSocial(int value)
     {
         Social += value;
+        if (Social <= 0)
+        {
+            GameManager.Instance.GameOver("Oh non!\nTu as fait un Burn out");
+        }
     }
 
     public void AddRemoveKnowledge(int value)
     {
         Knowledge += value;
+        if(Knowledge <= 0)
+        {
+            GameManager.Instance.GameOver("Oh non!\nTu es devenu trop con");
+        }
     }
 }
