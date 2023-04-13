@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b6ae8bb9052e85d499deec258b2e6b40, type: 2}
+  - {fileID: 11400000, guid: 0f63490ec32248a4b9f56850a41e5120, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
