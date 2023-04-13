@@ -8,12 +8,7 @@ public class Carte : ScriptableObject
 {
 
 
-    public SpriteRenderer image;
-    //public Dictionary<string, int> stats;
-    /* public int influenceHunger;
-     public int influenceSocial;
-     public int influenceSold;
-     public int influenceKnowledge;*/
+    public Sprite image;
     public Stats statsGauche;
     public Stats statsDroite;
 
