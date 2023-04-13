@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
         get { return _hunger; }
         set { 
             _hunger = value;
-            hungerBar.value = value;
+            if (_hunger > 100) _hunger = 100;
+            hungerBar.value = _hunger;
+
         }
     }
 
@@ -28,7 +30,8 @@ public class GameManager : MonoBehaviour
         set
         {
             _sold = value;
-            soldBar.value = value;
+            if (_sold > 100) _sold = 100;
+            soldBar.value = _sold;
         }
     }
 
@@ -38,7 +41,8 @@ public class GameManager : MonoBehaviour
         set
         {
             _social = value;
-            socialBar.value = value;
+            if (_social > 100) _social = 100;
+            socialBar.value = _social;
         }
     }
 
@@ -48,7 +52,8 @@ public class GameManager : MonoBehaviour
         set
         {
             _knowledge = value;
-            knowledgeBar.value = value;
+            if (_knowledge > 100) _knowledge = 100;
+            knowledgeBar.value = _knowledge;
         }
     }
 
