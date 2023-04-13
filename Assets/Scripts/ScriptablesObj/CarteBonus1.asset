@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: b15118544e9d58a459fd7f3bfe33822d, type: 3}
   statsGauche:
-    influenceHunger: 0
+    influenceHunger: 25
     influenceSocial: 0
     influenceSold: 0
     influenceKnowledge: 0
   statsDroite:
     influenceHunger: 0
-    influenceSocial: 0
+    influenceSocial: 25
     influenceSold: 0
     influenceKnowledge: 0

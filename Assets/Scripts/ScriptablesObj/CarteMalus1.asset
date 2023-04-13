@@ -16,10 +16,10 @@ MonoBehaviour:
   statsGauche:
     influenceHunger: 0
     influenceSocial: 0
-    influenceSold: 0
+    influenceSold: -60
     influenceKnowledge: 0
   statsDroite:
     influenceHunger: 0
     influenceSocial: 0
-    influenceSold: 0
+    influenceSold: -60
     influenceKnowledge: 0
