@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Deck : MonoBehaviour
+public class AllCards : MonoBehaviour
 {
 
     public List<Carte> deck = new List<Carte>();
-    public static int nbCartesInDeck = 20;
+    public static int nbCartesInDeck;
     /*private int[] listIndexCartes = new int[nbCartesInDeck];
     private bool isIndexValid = false;*/
 
