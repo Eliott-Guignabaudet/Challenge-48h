@@ -58,8 +58,8 @@ public class Swipe : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
                 {
-                    hit.transform.position =Camera.main.ScreenToWorldPoint( new Vector3(touch.position.x, touch.position.y, 0));
-                    hit.transform.position = new Vector3(hit.transform.position.x, hit.transform.position.y, 0);
+                    Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0));
+                    hit.transform.position = new Vector3(touchPosition.x, hit.transform.position.y, 0);
                 }
 
 
