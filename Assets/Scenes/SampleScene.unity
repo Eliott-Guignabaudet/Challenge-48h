@@ -360,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 2016200838015390811, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: listeCartes
       value: 
-      objectReference: {fileID: 711603651}
+      objectReference: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
     - target: {fileID: 4521017106168979897, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_Name
       value: CarteParent
@@ -501,17 +501,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692332485}
   m_CullTransparentMesh: 1
---- !u!114 &711603651 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-  m_PrefabInstance: {fileID: 1817114169}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82b165a24cebd648b2e138ea7fa3228, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &717756636 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7304922813558542982, guid: 2c8f6f78b5a8551479cc3f043d9f3336, type: 3}
@@ -1320,86 +1309,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 840937ebec13c4b48b00af2ab5a09972, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: c5dac8f6a74a2cf4ebf65f9318f8875d, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: b6ae8bb9052e85d499deec258b2e6b40, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[3]
-      value: 
-      objectReference: {fileID: 11400000, guid: 99c8de57fd0f7d544b023fd10d188ab4, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[4]
-      value: 
-      objectReference: {fileID: 11400000, guid: 0f63490ec32248a4b9f56850a41e5120, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[5]
-      value: 
-      objectReference: {fileID: 11400000, guid: 80155c0c813cc324ab6329cbf28a1dff, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[6]
-      value: 
-      objectReference: {fileID: 11400000, guid: c1793053444928f458d47599f6158f77, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[7]
-      value: 
-      objectReference: {fileID: 11400000, guid: f516b3c006cd35741ae8628072a253fb, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[8]
-      value: 
-      objectReference: {fileID: 11400000, guid: f3dbeed3f5c689342b7ee0c88a465200, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[9]
-      value: 
-      objectReference: {fileID: 11400000, guid: c911b217812fd904fa0b5049a56b6526, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[10]
-      value: 
-      objectReference: {fileID: 11400000, guid: 1115f3b2ba6d4864fb63873b593f1b72, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[11]
-      value: 
-      objectReference: {fileID: 11400000, guid: b748f1b05663af049a52ceccb8d9d986, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[12]
-      value: 
-      objectReference: {fileID: 11400000, guid: 5e329cb73412a2246aefb775bb18b83c, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[13]
-      value: 
-      objectReference: {fileID: 11400000, guid: 6512821234601094198ad67cdd4a8645, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[14]
-      value: 
-      objectReference: {fileID: 11400000, guid: 2a6913ed209c46743bbf53f1cce525fc, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[15]
-      value: 
-      objectReference: {fileID: 11400000, guid: d10d244f6f309b24fbf0106d146d2185, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[16]
-      value: 
-      objectReference: {fileID: 11400000, guid: b11a2e6cd12eaca4682f062820c3d851, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[17]
-      value: 
-      objectReference: {fileID: 11400000, guid: a01e6d47c0bbf4d48b68e80dc9f5f04a, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[18]
-      value: 
-      objectReference: {fileID: 11400000, guid: 02621881758c6b142a35b760ee0920a3, type: 2}
-    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
-      propertyPath: deck.Array.data[19]
-      value: 
-      objectReference: {fileID: 11400000, guid: 3ecfa3c4dee73da4c953dbebb0588564, type: 2}
     - target: {fileID: 3828717239773553004, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
       propertyPath: m_Name
       value: AllCards
