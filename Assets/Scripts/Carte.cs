@@ -11,6 +11,7 @@ public class Carte : ScriptableObject
     public Sprite image;
     public Stats statsGauche;
     public Stats statsDroite;
+    public int type;
 
 
 

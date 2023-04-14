@@ -6,7 +6,7 @@ using UnityEngine;
 public class CardsScript : MonoBehaviour
 {
     public Player player;
-    private int indexListCards = 0;
+    public int indexListCards = 0;
     public bool isSwipLeft = false;
     public bool isSwipRight = false;
     public AllCards listeCartes;

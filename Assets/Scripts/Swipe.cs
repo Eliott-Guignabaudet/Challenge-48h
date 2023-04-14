@@ -29,18 +29,38 @@ public class Swipe : MonoBehaviour
 
         if (Square.transform.position.x > 1)
         {
+            var cardScript = Square.GetComponent<CardsScript>();
+            var card = cardScript.listeCartes.deck[cardScript.indexListCards];
+            if (card.type == 2)
+            {
+                sr.color = Color.red;
+            }
+            else
+            {
+                sr.color = Color.green;
+            }
+
             if (Input.GetMouseButtonUp(0))
             {
                 cl.SimulSwipRight();
                 Square.GetComponent<Animator>().enabled = true;
                 Square.GetComponent<Animator>().SetTrigger("Swipe");
             }
-            sr.color = Color.green;
 
         }
         else if (Square.transform.position.x < -1)
         {
-            sr.color = Color.red;
+            var cardScript = Square.GetComponent<CardsScript>();
+            var card = cardScript.listeCartes.deck[cardScript.indexListCards];
+            if (card.type == 1)
+            {
+                sr.color = Color.green;
+            }
+            else
+            {
+                sr.color = Color.red;
+            }
+
             if (Input.GetMouseButtonUp(0))
             {
                 cl.SimulSwipLeft();
