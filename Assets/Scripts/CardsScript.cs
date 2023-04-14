@@ -12,8 +12,9 @@ public class CardsScript : MonoBehaviour
     private Sprite ActualFrontSprite;
     [SerializeField] private Sprite BackSprite;
     
+    
 
-    void Start()
+    public void StartGame()
     {
 
         ActualFrontSprite = listeCartes.deck[indexListCards].image;

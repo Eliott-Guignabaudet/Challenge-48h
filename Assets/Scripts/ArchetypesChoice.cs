@@ -29,6 +29,7 @@ namespace DefaultNamespace
             archetypes.SetActive(false);
             card.SetActive(true);
             swipe.SetActive(true);
+            card.GetComponent<CardsScript>().StartGame();
 
         }
         public void Leader()
@@ -40,6 +41,7 @@ namespace DefaultNamespace
             archetypes.SetActive(false);
             card.SetActive(true);
             swipe.SetActive(true);
+            card.GetComponent<CardsScript>().StartGame();
 
         }
         public void Acharné()
@@ -51,6 +53,7 @@ namespace DefaultNamespace
             archetypes.SetActive(false);
             card.SetActive(true);
             swipe.SetActive(true);
+            card.GetComponent<CardsScript>().StartGame();
 
         }
         public void Gamer()
@@ -62,6 +65,7 @@ namespace DefaultNamespace
             archetypes.SetActive(false);
             card.SetActive(true);
             swipe.SetActive(true);
+            card.GetComponent<CardsScript>().StartGame();
 
         }
 
