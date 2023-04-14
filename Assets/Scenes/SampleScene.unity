@@ -2079,6 +2079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 3606029320578004380, guid: 2c000752ae16ca942b2423196f50c5c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3606029320578004381, guid: 2c000752ae16ca942b2423196f50c5c1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
