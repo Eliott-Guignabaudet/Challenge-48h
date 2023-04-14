@@ -70,14 +70,14 @@ public class Player : MonoBehaviour
     private void Update()
     {
 
-        foreach (Touch touch in Input.touches)
-        {
-            if (touch.phase == TouchPhase.Began)
-            {
-                AddRemoveSocial(-10);
+        //foreach (Touch touch in Input.touches)
+        //{
+        //    if (touch.phase == TouchPhase.Began)
+        //    {
+        //        AddRemoveSocial(-10);
 
-            }
-        }
+        //    }
+        //}
     }
 
     // Update is called once per frame
