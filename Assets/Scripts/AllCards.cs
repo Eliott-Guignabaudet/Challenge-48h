@@ -18,29 +18,6 @@ public class AllCards : MonoBehaviour
         var shuffled = deck.OrderBy(_ => random.Next()).ToList();
         deck = shuffled.Take(20).ToList();
 
-        /*for (int i = 0; i < nbCartesInDeck; i++){
-             int index = Random.Range(0, 30);
-             for (int indexCartesInList = 0; indexCartesInList <= listIndexCartes.Length; indexCartesInList++)
-             {
-                if (index != listIndexCartes[indexCartesInList])
-                 {
-                     isIndexValid = true;
-                 }else if (listIndexCartes.Length == 0)
-                 {
-                     isIndexValid = true;
-                 }
-
-             }
-             if (isIndexValid)
-             {
-
-                 isIndexValid = false;
-             }
-             Debug.Log(index);
-            listIndexCartes[i] = index;
-         }
-         Debug.Log(listIndexCartes);*/
-
     }
 
     // Update is called once per frame
