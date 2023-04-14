@@ -303,7 +303,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 836195975032577734, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 836195975032577734, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_LocalScale.x
@@ -319,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 836195975032577734, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 836195975032577734, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_LocalPosition.z
@@ -357,6 +357,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1825610206}
+    - target: {fileID: 2016200838015390811, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: BackSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b7a0e0f676fb4947a77ff78aa6f70c6, type: 3}
     - target: {fileID: 4521017106168979897, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_Name
       value: CarteParent
@@ -1824,6 +1828,73 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7304922814903534496, guid: 2c8f6f78b5a8551479cc3f043d9f3336, type: 3}
   m_PrefabInstance: {fileID: 7304922814250076762}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &13643779276690569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825625520010783734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.53, z: 0.15732844}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &439002636346255658
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825625520010783734}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9b7a0e0f676fb4947a77ff78aa6f70c6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.32, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &3606029321040493928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1925,6 +1996,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c000752ae16ca942b2423196f50c5c1, type: 3}
+--- !u!1 &3825625520010783734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13643779276690569}
+  - component: {fileID: 439002636346255658}
+  m_Layer: 0
+  m_Name: BackgroundCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &4302761453232092473
 PrefabInstance:
   m_ObjectHideFlags: 0

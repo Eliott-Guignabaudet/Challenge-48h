@@ -9,10 +9,15 @@ public class CardsScript : MonoBehaviour
     public bool isSwipLeft = false;
     public bool isSwipRight = false;
     public AllCards listeCartes;
+    private Sprite ActualFrontSprite;
+    [SerializeField] private Sprite BackSprite;
+    
+
     void Start()
     {
-        
-        gameObject.GetComponent<SpriteRenderer>().sprite = listeCartes.deck[indexListCards].image;
+
+        ActualFrontSprite = listeCartes.deck[indexListCards].image;
+        StartCoroutine(AnimationCardCoroutine());
 
     }
 
@@ -31,7 +36,8 @@ public class CardsScript : MonoBehaviour
             player.AddRemoveSocial(listeCartes.deck[indexListCards].statsGauche.influenceSocial);
             player.AddRemoveSold(listeCartes.deck[indexListCards].statsGauche.influenceSold);
             indexListCards += 1;
-            gameObject.GetComponent<SpriteRenderer>().sprite = listeCartes.deck[indexListCards].image;
+            ActualFrontSprite = listeCartes.deck[indexListCards].image;
+            StartCoroutine(AnimationCardCoroutine());
             isSwipLeft = false;
         }
         else if (isSwipRight)
@@ -42,7 +48,8 @@ public class CardsScript : MonoBehaviour
             player.AddRemoveSocial(listeCartes.deck[indexListCards].statsDroite.influenceSocial);
             player.AddRemoveSold(listeCartes.deck[indexListCards].statsDroite.influenceSold);
             indexListCards += 1;
-            gameObject.GetComponent<SpriteRenderer>().sprite = listeCartes.deck[indexListCards].image;
+            ActualFrontSprite = listeCartes.deck[indexListCards].image;
+            StartCoroutine(AnimationCardCoroutine());
             isSwipRight = false;
         }
     }
@@ -55,6 +62,18 @@ public class CardsScript : MonoBehaviour
     public void SimulSwipRight()
     {
         isSwipRight = true;
+    }
+
+    IEnumerator AnimationCardCoroutine()
+    {
+        GetComponent<Animator>().enabled = true;
+        GetComponent<Animator>().SetTrigger("Swipe");
+        GetComponent<SpriteRenderer>().sprite = BackSprite;
+        yield return new WaitForSeconds(0.20f);
+        GetComponent<SpriteRenderer>().sprite = ActualFrontSprite;
+        yield return new WaitForSeconds(0.20f);
+        GetComponent<Animator>().enabled = false;
+
     }
 
 }

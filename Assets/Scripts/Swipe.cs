@@ -32,6 +32,8 @@ public class Swipe : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 cl.SimulSwipRight();
+                Square.GetComponent<Animator>().enabled = true;
+                Square.GetComponent<Animator>().SetTrigger("Swipe");
             }
             sr.color = Color.green;
 
@@ -42,6 +44,8 @@ public class Swipe : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 cl.SimulSwipLeft();
+                Square.GetComponent<Animator>().enabled = true;
+                Square.GetComponent<Animator>().SetTrigger("Swipe");
             }
 
         }
@@ -70,10 +74,15 @@ public class Swipe : MonoBehaviour
         }
         else
         {
-            Square.transform.position = Vector2.MoveTowards(Square.transform.position, new Vector2(0, 0), fMovingSpeed);
+            Square.transform.position = Vector2.MoveTowards(Square.transform.position, new Vector2(0, -0.53f), fMovingSpeed);
             Square.transform.rotation = Quaternion.identity;
         }
 
 
+    }
+
+    IEnumerator AnimationCardCoroutine()
+    {
+        yield return new WaitForSeconds(0.10f);
     }
 }
