@@ -119,6 +119,6 @@ public class Player : MonoBehaviour
 
     public void Win()
     {
-        GameManager.Instance.GameOver("Bravo!\nVous êtes embauchés");
+        GameManager.Instance.GameOver("Bravo!\nVous ï¿½tes embauchï¿½s");
     }
 }
