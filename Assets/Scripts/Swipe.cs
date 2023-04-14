@@ -27,7 +27,7 @@ public class Swipe : MonoBehaviour
         //    Square.transform.position = Vector2.MoveTowards(Square.transform.position, new Vector2(0, 0), fMovingSpeed);
         //}
 
-        if (Square.transform.position.x > 1.5)
+        if (Square.transform.position.x > 1)
         {
             if (Input.GetMouseButtonUp(0))
             {
@@ -36,7 +36,7 @@ public class Swipe : MonoBehaviour
             sr.color = Color.green;
 
         }
-        else if (Square.transform.position.x < -1.5)
+        else if (Square.transform.position.x < -1)
         {
             sr.color = Color.red;
             if (Input.GetMouseButtonUp(0))
