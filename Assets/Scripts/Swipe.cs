@@ -6,7 +6,7 @@ using UnityEngine;
 public class Swipe : MonoBehaviour
 {
     public GameObject Square; //card
-    public Cardlogic cl;
+    public CardsScript cl;
     SpriteRenderer sr;
     float fMovingSpeed = 1f;
     void Start()
@@ -31,7 +31,7 @@ public class Swipe : MonoBehaviour
         {
             if (Input.GetMouseButtonUp(0))
             {
-                cl.InduceRight();
+                cl.SimulSwipRight();
             }
             sr.color = Color.green;
 
@@ -41,13 +41,13 @@ public class Swipe : MonoBehaviour
             sr.color = Color.red;
             if (Input.GetMouseButtonUp(0))
             {
-                cl.InduceLeft();
+                cl.SimulSwipLeft();
             }
 
         }
         else
         {
-            sr.color = Color.blue;
+            sr.color = Color.white;
         }
         if (Input.touchCount > 0)
         {
