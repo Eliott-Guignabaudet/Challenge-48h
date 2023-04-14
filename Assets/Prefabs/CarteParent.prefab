@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db444ec95523e434cb4b7f36b27575dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 4302761452801700055, guid: 0ec9686b98cc1224da8273775d6e11c4, type: 3}
   isSwipLeft: 0
   isSwipRight: 0
   listeCartes: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
