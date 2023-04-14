@@ -33,6 +33,7 @@ public class CardsScript : MonoBehaviour
         }
         else if (isSwipLeft)
         {
+            Debug.Log(listeCartes.deck[indexListCards]);
             //Appliquer les malus/bonus à l'UI barres etat
             player.AddRemoveHunger(listeCartes.deck[indexListCards].statsGauche.influenceHunger);
             player.AddRemoveKnowledge(listeCartes.deck[indexListCards].statsGauche.influenceKnowledge);

@@ -289,6 +289,10 @@ PrefabInstance:
       propertyPath: ReturnCard
       value: 
       objectReference: {fileID: 1850937452}
+    - target: {fileID: 2016200838015390811, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: listeCartes
+      value: 
+      objectReference: {fileID: 1668728127}
     - target: {fileID: 4521017106168979897, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: m_Name
       value: CarteParent
@@ -1370,6 +1374,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7304922813558542977, guid: 2c8f6f78b5a8551479cc3f043d9f3336, type: 3}
   m_PrefabInstance: {fileID: 7304922814250076762}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1668728127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+  m_PrefabInstance: {fileID: 1817114169}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82b165a24cebd648b2e138ea7fa3228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1676252386 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7304922814751727288, guid: 2c8f6f78b5a8551479cc3f043d9f3336, type: 3}
