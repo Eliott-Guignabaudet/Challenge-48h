@@ -2,10 +2,10 @@ namespace DefaultNamespace
 {
     public static class Archetype
     {
-        public static readonly Stats Analyst = new Stats(44,26,18,59);
-        public static readonly Stats Diplomat = new Stats(56,35,40,69);
-        public static readonly Stats Explorer = new Stats(38,54,29,48);
-        public static readonly Stats Sentinel = new Stats(49,23,45,56);
+        public static readonly Stats Ratus = new Stats(37,70,20,59);
+        public static readonly Stats Leader = new Stats(45,20,70,50);
+        public static readonly Stats Acharné = new Stats(20,51,45,70);
+        public static readonly Stats Gamer = new Stats(70,47,51,20);
 
         public struct Stats
         {
