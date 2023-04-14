@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -57,15 +58,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Hunger = 50;
-        Sold = 50;
-        Social = 50;
-        Knowledge = 50;
-        
-    }
+    
 
     private void Update()
     {

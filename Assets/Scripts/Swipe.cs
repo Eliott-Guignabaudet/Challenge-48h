@@ -9,7 +9,7 @@ public class Swipe : MonoBehaviour
     public CardsScript cl;
     SpriteRenderer sr;
     float fMovingSpeed = 1f;
-    void Start()
+    void Awake()
     {
         sr = Square.GetComponent<SpriteRenderer>();
     }
