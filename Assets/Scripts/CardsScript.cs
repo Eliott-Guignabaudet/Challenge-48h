@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 
 public class CardsScript : MonoBehaviour
@@ -10,6 +11,7 @@ public class CardsScript : MonoBehaviour
     public bool isSwipRight = false;
     public AllCards listeCartes;
     private Sprite ActualFrontSprite;
+    public AudioSource ReturnCard;
     [SerializeField] private Sprite BackSprite;
     
     
@@ -69,10 +71,12 @@ public class CardsScript : MonoBehaviour
     {
         GetComponent<Animator>().enabled = true;
         GetComponent<Animator>().SetTrigger("Swipe");
+        ReturnCard.Play();
         GetComponent<SpriteRenderer>().sprite = BackSprite;
         yield return new WaitForSeconds(0.20f);
         GetComponent<SpriteRenderer>().sprite = ActualFrontSprite;
         yield return new WaitForSeconds(0.20f);
+        ReturnCard.Stop();
         GetComponent<Animator>().enabled = false;
 
     }
