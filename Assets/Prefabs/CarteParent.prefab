@@ -45,7 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db444ec95523e434cb4b7f36b27575dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carteSO: {fileID: 0}
+  isSwipLeft: 0
+  isSwipRight: 0
+  listeCartes: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
 --- !u!212 &989980120307671909
 SpriteRenderer:
   m_ObjectHideFlags: 0
