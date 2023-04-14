@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     {
         endPanel.SetActive(true);
         endPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = message;
+        GameObject.Find("CarteParent").SetActive(false);
+        GameObject.Find("Swipe").SetActive(false);
     }
 
     public void Play()
