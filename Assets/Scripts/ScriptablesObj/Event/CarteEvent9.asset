@@ -20,6 +20,7 @@ MonoBehaviour:
     influenceKnowledge: 0
   statsDroite:
     influenceHunger: 0
-    influenceSocial: 12
+    influenceSocial: -12
     influenceSold: 16
     influenceKnowledge: 0
+  type: 0

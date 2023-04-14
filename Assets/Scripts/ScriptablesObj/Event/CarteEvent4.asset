@@ -15,11 +15,11 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 8bdc70326d0d22f4fa6c80a5c4f93bb6, type: 3}
   statsGauche:
     influenceHunger: 0
-    influenceSocial: 40
+    influenceSocial: 30
     influenceSold: 0
-    influenceKnowledge: -35
+    influenceKnowledge: -25
   statsDroite:
-    influenceHunger: 0
-    influenceSocial: -20
+    influenceHunger: -27
+    influenceSocial: 0
     influenceSold: 0
-    influenceKnowledge: 35
+    influenceKnowledge: 30

@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f7417e37eba32243897bd691c1f1ce7, type: 3}
-  m_Name: CarteEvent6
+  m_Name: CartDidactitiel
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: feddbf69bed69c1469c46d32094bb8ca, type: 3}
+  image: {fileID: 21300000, guid: beef818d5ac7ecd4982275a34db066da, type: 3}
   statsGauche:
     influenceHunger: 0
-    influenceSocial: -30
+    influenceSocial: 0
     influenceSold: 0
-    influenceKnowledge: 23
+    influenceKnowledge: 0
   statsDroite:
     influenceHunger: 0
-    influenceSocial: 45
+    influenceSocial: 0
     influenceSold: 0
-    influenceKnowledge: -20
+    influenceKnowledge: 0
   type: 0
