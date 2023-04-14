@@ -5,7 +5,8 @@ using UnityEngine;
 public class CardsScript : MonoBehaviour
 {
     private int indexListCards = 0;
-    private bool isSwip = false;
+    public bool isSwipLeft = false;
+    public bool isSwipRight = false;
     public AllCards listeCartes;
     void Start()
     {
@@ -20,21 +21,18 @@ public class CardsScript : MonoBehaviour
         {
             Debug.Log("Fin du jeu");
         }
-        else if (isSwip)
+        else if (isSwipLeft)
         {
+            //Appliquer les malus/bonus à l'UI barres etat
             indexListCards += 1;
             gameObject.GetComponent<SpriteRenderer>().sprite = listeCartes.deck[indexListCards].image;
-            isSwip = false;
+            isSwipLeft = false;
         }
+    }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            isSwip = true;
-        }
-        /*else if (Input.GetKeyDown(KeyCode.D))
-        {
-            isSwip = true;
-        }*/
+    public void SimulSwipLeft()
+    {
+        isSwipLeft = true;
     }
 
 
