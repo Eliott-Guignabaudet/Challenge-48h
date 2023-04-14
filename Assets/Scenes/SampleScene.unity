@@ -1582,6 +1582,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[22]
+      value: 
+      objectReference: {fileID: 11400000, guid: c911b217812fd904fa0b5049a56b6526, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: b748f1b05663af049a52ceccb8d9d986, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b8581fc1a01c0245b8314ed9e91be28, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: f4ef8c651f745ea469d244fd8610e4bc, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: d598bb62bb5f4e5438a94474b72d6eaa, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[27]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9eeb40e113dc3a8488cdb1ff1e51f776, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[28]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a6913ed209c46743bbf53f1cce525fc, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[29]
+      value: 
+      objectReference: {fileID: 11400000, guid: b11a2e6cd12eaca4682f062820c3d851, type: 2}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[30]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828717239773552995, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
+      propertyPath: deck.Array.data[31]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3828717239773553004, guid: 635541a1e6368fa40b0bfb21986725ad, type: 3}
       propertyPath: m_Name
       value: AllCards
