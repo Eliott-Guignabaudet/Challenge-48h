@@ -59,7 +59,9 @@ public class Swipe : MonoBehaviour
                 if (Physics.Raycast(ray, out hit))
                 {
                     Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0));
+                    float newPositionX = hit.point.x - touchPosition.x;
                     hit.transform.position = new Vector3(touchPosition.x, hit.transform.position.y, 0);
+                    hit.transform.eulerAngles = new Vector3(0, 0, -touchPosition.x * 7);
                 }
 
 
@@ -68,6 +70,7 @@ public class Swipe : MonoBehaviour
         else
         {
             Square.transform.position = Vector2.MoveTowards(Square.transform.position, new Vector2(0, 0), fMovingSpeed);
+            Square.transform.rotation = Quaternion.identity;
         }
 
 

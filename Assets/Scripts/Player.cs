@@ -106,12 +106,12 @@ public class Player : MonoBehaviour
         Knowledge += value;
         if(Knowledge <= 0)
         {
-            GameManager.Instance.GameOver("Oh non!\nTu es devenu trop con");
+            GameManager.Instance.GameOver("Oh non!\nTu manque de connaissances");
         }
     }
 
     public void Win()
     {
-        GameManager.Instance.GameOver("Bravo!\nVous �tes embauch�s");
+        GameManager.Instance.GameOver("Bravo!\nVous êtes embauchés");
     }
 }
