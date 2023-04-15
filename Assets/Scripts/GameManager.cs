@@ -19,6 +19,11 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
+        
+    }
+
+    private void Start()
+    {
         if (SceneManager.GetActiveScene().name == "SampleSceneYnov")
         {
             GameObject.Find("CarteParent").GetComponent<CardsScript>().StartGame();

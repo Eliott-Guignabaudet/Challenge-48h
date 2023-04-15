@@ -277,6 +277,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_Size.x
+      value: 5.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_Size.y
+      value: 7.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 989980120307671909, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2016200838015390811, guid: cf9059cb9ea5295429dae55c8d32db68, type: 3}
       propertyPath: player
       value: 
