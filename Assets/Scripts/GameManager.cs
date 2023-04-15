@@ -19,6 +19,15 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
+        if (SceneManager.GetActiveScene().name == "SampleSceneYnov")
+        {
+            GameObject.Find("CarteParent").GetComponent<CardsScript>().StartGame();
+            Player player = GameObject.Find("Player").GetComponent<Player>();
+            player.Hunger = 70;
+            player.Sold = 70;
+            player.Social = 70;
+            player.Knowledge = 70;
+        }
     }
 
     public void GameOver(string message)
@@ -32,5 +41,10 @@ public class GameManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+
+    public void PlayYnov()
+    {
+        SceneManager.LoadScene("SampleSceneYnov");
     }
 }
